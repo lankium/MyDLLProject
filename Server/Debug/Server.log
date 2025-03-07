@@ -1,0 +1,38 @@
+﻿生成启动时间为 2025/3/5 9:05:12。
+     1>项目“C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Server\Server.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\Server.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\Server.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\ljh\Documents\Visual Studio 2010\Projects\MyDLLProject\Server" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SERVER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp
+         server.cpp
+     1>c:\users\ljh\documents\visual studio 2010\projects\mydllproject\server\server.cpp(13): warning C4273: “InitializeWinsock”: dll 链接不一致
+                 c:\users\ljh\documents\visual studio 2010\projects\mydllproject\server\server.h(18) : 参见“InitializeWinsock”的前一个定义
+     1>c:\users\ljh\documents\visual studio 2010\projects\mydllproject\server\server.cpp(23): warning C4273: “ConnectToServer”: dll 链接不一致
+                 c:\users\ljh\documents\visual studio 2010\projects\mydllproject\server\server.h(21) : 参见“ConnectToServer”的前一个定义
+     1>c:\users\ljh\documents\visual studio 2010\projects\mydllproject\server\server.cpp(47): warning C4273: “SendData”: dll 链接不一致
+                 c:\users\ljh\documents\visual studio 2010\projects\mydllproject\server\server.h(24) : 参见“SendData”的前一个定义
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Server.dll.embed.manifest.res" Debug\Server_manifest.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Server.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.lib" /MACHINE:X86 /DLL Debug\Server.dll.embed.manifest.res
+         Debug\server.obj
+            正在创建库 C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.lib 和对象 C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.exp
+       Manifest:
+         正在删除文件“Debug\Server.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Server.dll.embed.manifest" /manifest Debug\Server.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Server.dll.embed.manifest.res" Debug\Server_manifest.rc 
+       LinkEmbedManifest:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Server.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.lib" /MACHINE:X86 /DLL Debug\Server.dll.embed.manifest.res
+         Debug\server.obj
+            正在创建库 C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.lib 和对象 C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.exp
+         Server.vcxproj -> C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Debug\Server.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Server.unsuccessfulbuild”。
+         正在对“Debug\Server.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Server\Server.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.33

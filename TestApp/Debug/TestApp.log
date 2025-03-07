@@ -1,0 +1,32 @@
+﻿生成启动时间为 2025/3/7 16:44:29。
+     1>项目“C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\TestApp\TestApp.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\TestApp.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\TestApp.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\MyDLL/include" /I"C:\Users\ljh\Documents\Visual Studio 2010\Projects\MyDLLProject\MyDLL" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\ljh\documents\visual studio 2010\projects\mydllproject\testapp\main.cpp(254): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : 参见“localtime”的声明
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TestApp.exe.embed.manifest.res" Debug\TestApp_manifest.rc 
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\TestApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ljh\Documents\Visual Studio 2010\Projects\MyDLLProject\bin\Debug" /LIBPATH:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\\" MyDLL.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestApp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\TestApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\TestApp.lib" /MACHINE:X86 Debug\TestApp.exe.embed.manifest.res
+         Debug\main.obj
+       Manifest:
+         正在删除文件“Debug\TestApp.exe.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TestApp.exe.embed.manifest" /manifest Debug\TestApp.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TestApp.exe.embed.manifest.res" Debug\TestApp_manifest.rc 
+       LinkEmbedManifest:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\TestApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ljh\Documents\Visual Studio 2010\Projects\MyDLLProject\bin\Debug" /LIBPATH:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\\" MyDLL.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestApp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\TestApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\TestApp.lib" /MACHINE:X86 Debug\TestApp.exe.embed.manifest.res
+         Debug\main.obj
+         TestApp.vcxproj -> C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\bin\Debug\TestApp.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\TestApp.unsuccessfulbuild”。
+         正在对“Debug\TestApp.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\TestApp\TestApp.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.89

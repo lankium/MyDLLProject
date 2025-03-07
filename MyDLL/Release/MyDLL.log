@@ -1,0 +1,20 @@
+﻿生成启动时间为 2025/2/12 17:01:42。
+     1>项目“c:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\MyDLL\MyDLL.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\MyDLL.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D MYDLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt data_io.cpp network.cpp
+         data_io.cpp
+         network.cpp
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Release\MyDLL.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MyDLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Release\MyDLL.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Release\MyDLL.lib" /MACHINE:X86 /DLL Release\data_io.obj
+         Release\network.obj
+     1>network.obj : error LNK2005: _CleanData 已经在 data_io.obj 中定义
+     1>network.obj : error LNK2005: _ReadData 已经在 data_io.obj 中定义
+            正在创建库 c:\users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Release\MyDLL.lib 和对象 c:\users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Release\MyDLL.exp
+     1>c:\users\ljh\documents\visual studio 2010\Projects\MyDLLProject\Release\MyDLL.dll : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“c:\Users\ljh\documents\visual studio 2010\Projects\MyDLLProject\MyDLL\MyDLL.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.86
